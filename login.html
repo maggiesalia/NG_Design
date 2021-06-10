@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NG | Log In</title>
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/tab.jpg" type="image/gif" sizes="16x16">
+</head>
+<body style="background-color: black;">
+    <header>
+        <div class="about">
+            <div class="header-wraper">
+                <a href="index.html">
+                    <p class="logo">NG Design</p>
+                </a>
+                <div class="burger-icon" id="burger">
+                    <i class="fas fa-bars burger"></i>
+                </div>
+                <nav class="navigation" id="navigation">
+                    <ul class="nav-ul">
+                        <li class="nav-li">
+                            <a class="nav-a" href="index.html"> home</a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav-a" href="portfolio.html"> portfolio</a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav-a" href="about.html"> about</a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav-a" href="contact.html"> contact</a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav-a color" href="login.html"> log in</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="login">
+        <div class="login-html">
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+            <div class="login-form">
+                <div class="sign-in-htm">
+                    <div class="group">
+                        <label for="user" class="label">Username</label>
+                        <input id="user" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <label for="pass" class="label">Password</label>
+                        <input id="pass" type="password" class="input" data-type="password">
+                    </div>
+                    <div class="group">
+                        <input id="check" type="checkbox" class="check" checked>
+                        <label for="check"><span class="icon"></span> Keep me signed in</label>
+                    </div>
+                    <div class="center">
+                        <input type="submit" value="Sign In">
+                    </div>
+                    
+                </div>
+                <div class="sign-up-htm">
+                    <div class="group">
+                        <label for="user" class="label">Username</label>
+                        <input id="user" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <label for="pass" class="label">Password</label>
+                        <input id="pass" type="password" class="input" data-type="password">
+                    </div>
+                    <div class="group">
+                        <label for="pass" class="label">Repeat Password</label>
+                        <input id="pass" type="password" class="input" data-type="password">
+                    </div>
+                    <div class="group">
+                        <label for="pass" class="label">Email Address</label>
+                        <input id="pass" type="text" class="input">
+                    </div>
+                    <div class="center">
+                        <input id="signup" type="submit" value="Sign Up">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/myscript.js"></script>
+</body>
+</html>
