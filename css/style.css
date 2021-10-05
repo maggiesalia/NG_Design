@@ -176,17 +176,18 @@
 
 /* right image block */
 .img-block {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box; 
+  display: -ms-inline-flexbox; 
+  display: flex;
+  justify-content: space-between;
   padding-right: 3px;
+
 }
 .image {
-  max-width: 340px;
+  max-width: 270px;
   width: 100%;
   max-height: 350px;
   height: 100%;
-  padding-left: 7px;
 }
 
 /* about page */
